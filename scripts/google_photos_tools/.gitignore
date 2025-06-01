@@ -1,0 +1,15 @@
+# Contains secrets, caches and generated artefacts you should not commit.
+
+# OAuth credentials & cached tokens
+credentials.json
+token.pickle
+
+# Generated inventories and progress bookkeeping
+google_photos_inventory.json
+download_progress.json
+
+# Downloaded media (can be huge)
+google_photos_downloads/
+
+# Partial/incomplete downloads
+*.part
